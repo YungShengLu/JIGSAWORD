@@ -1,0 +1,44 @@
+#game-table {
+  margin-left: 3em;
+  margin-bottom: -5vh;
+  margin-top: 1em;
+}
+
+.row {
+  display: inline-block;
+  background-color: transparent;
+  margin-top: -5em;
+}
+
+.list-panel {
+  width: 20em;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-right: 2em;
+  margin-bottom: -10em;
+  padding-bottom: -10em;
+  border-radius: 10px;
+}
+
+.curr_score,
+.best_score,
+.new_record {
+  width: 8em;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: -2em;
+  margin-bottom: -30em;
+  padding-bottom: -20em;
+  border-radius: 10px;
+}
+
+.panel-heading {
+  background: rgba(43, 61, 79, 1.0);
+}
+
+.panel-body {
+  background: rgba(0, 148, 148, 0.7);
+  height: 2.5em;
+  color: yellow;
+}

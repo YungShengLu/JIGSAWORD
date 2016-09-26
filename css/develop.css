@@ -1,0 +1,21 @@
+.game-table input[type="text"] {
+    background: transparent;
+    border: none;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+#develop_success_alert {
+	background-color: #DFF0D8;
+	color: #3B743C;
+	width: 50vw;
+	margin-left: 35vh;
+	margin-top: 2vh;
+	display: none;
+}
+
+.row {
+  display: inline-block;
+  background-color: transparent;
+  margin-top: -5em;
+}

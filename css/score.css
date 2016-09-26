@@ -1,0 +1,33 @@
+.col-md-1,
+.col-md-2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.game-container {
+  display: inline-block;
+  background-color: transparent;
+  margin-top: -10em;
+  padding-top: -10em;
+}
+
+th {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+td {
+	font-size: 1.2em;
+	text-align: center;
+	-webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+td:hover {
+	color: black;
+	font-weight: bold;
+}

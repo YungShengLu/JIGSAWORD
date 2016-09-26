@@ -1,0 +1,36 @@
+<style type="text/css">
+    body {
+      -webkit-user-select: none;  /* Chrome all / Safari all */
+      -moz-user-select: none;     /* Firefox all */
+      -ms-user-select: none;      /* IE 10+ */
+      -o-user-select: none;
+      user-select: none;          
+    }
+    .square1 {
+      display: inline-block;
+    }
+    .square2 {
+      display: inline-block;
+    }
+    .square3 {
+      display: inline-block;
+    }
+    .square4 {
+      display: inline-block;
+    }
+    .square {
+      margin: 0px;
+      padding: 2em;
+      background-color: #9587FF;
+      height: 10vh;
+      width: 10vw;
+    }
+    .square h1 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .well {
+      background-color: #BDC4FF;
+    }
+</style>

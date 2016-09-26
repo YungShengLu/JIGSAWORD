@@ -1,0 +1,39 @@
+table {
+	border-color: #000;
+}
+
+th {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+td {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.word,
+.speech,
+.chinese,
+.addedtime, {
+	padding-top: 5vh;
+}
+
+.wordrow {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+	-webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.wordrow:hover {
+	color: black;
+	font-weight: bold;
+}
+
+#btn-dele {
+	font-size: 1em;
+}

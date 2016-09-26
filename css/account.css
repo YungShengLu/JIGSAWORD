@@ -1,0 +1,141 @@
+  /*
+ * Specific styles of signin component
+ */
+/*
+ * General styles
+ */
+.card-container.card {
+    width: 500px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: rgba(247, 247, 247, 0.25);
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*
+ * Form styles
+ */
+::-webkit-input-placeholder {
+    color: red;
+}
+
+.profile-name-card {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#subtitle {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+}
+
+#hint {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Arial;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.account {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+
+#edit {
+    padding-left: 30px;
+}
+
+#btn-name,
+#btn-password {
+    border: none;
+    transition: all 0.5s;
+}
+
+#btn-name:hover,
+#btn-password:hover {
+    background-color: rgb(205, 102, 0);
+    transition: all 0.5s;
+}
+
+#inputName,
+#inputPassword {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    direction: ltr;
+    height: 36px;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.btn-modify {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn-modify:hover,
+.btn-modify:active,
+.btn-modify:focus {
+    background-color: rgb(39, 64, 139);
+}
