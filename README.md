@@ -3,7 +3,7 @@
 [![License: IEEE](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-JIGSAWORD is a educational game which provide user to learn English volcabulary by playing crossing word.
+**JIGSAWORD** is a educational game which provide user to learn English volcabulary by playing crossing word.
 
 ## Inrtroduction
 
