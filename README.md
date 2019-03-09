@@ -14,11 +14,6 @@ This repository implement a learning website for English volcabulary. By playing
 In this game, system will store user-owned volcabulary in user's dictionary.
 
 ---
-## Execution
-
-* Execute `index.php` on your browser
-
----
 ## Author
 
 * [David Lu](http://github.com/yungshenglu)
